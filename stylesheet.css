@@ -15,12 +15,10 @@ header, h1, h2{
 }
 
 footer {
-   position: absolute;
    background-color: #000000;
    color: #00ff00;
    border: 1px solid black; 
    border-radius: 10px;
-   bottom: auto; // should place footer at bottom of page.
 }
 
 p {
