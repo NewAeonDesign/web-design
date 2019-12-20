@@ -7,12 +7,12 @@ header {
    background-color: #000000; 
    border: 1px solid #000000; 
    border-radius: 10px; 
+   width: 100%;
 }
 
 header, h1, h2{
    text-align: center; 
    color: #00ff00; 
-   padding: 0; 
 }
 
 footer {
@@ -24,7 +24,7 @@ footer {
    border: 1px solid #000000; 
    border-radius: 10px;
    margin: 5px;
-   width: 90%; 
+   width: 100%; 
 }
 
 p {
