@@ -1,33 +1,170 @@
 body {
-   background-color: grey; 
-   color: white; 
+   background-color: #bababa;
+   color: #000000;
 }
 
-header {
-   background-color: #000000; 
-   border: 1px solid #000000; 
-   border-radius: 10px; 
-   width: 100%;
+article {
+  padding: 30px 20px 5px 20px;
 }
 
-header, h1, h2{
-   text-align: center; 
-   color: #00ff00; 
+ul{
 }
 
-footer {
-   position: fixed; 
-   bottom: 0;
-   left: 0; 
-   background-color: #000000;
-   color: #00ff00;
-   border: 1px solid #000000; 
-   border-radius: 10px;
-   margin: 5px;
-   width: 99%; 
-   text-align: right;
+li {
+  font-weight: 900;
 }
 
 p {
    padding: 10px;
+   text-indent: 10px;
 }
+
+a {
+  text-decoration: none;
+}
+
+
+/* styles web design portion */
+
+#webDesign {
+  display: inline-block;
+}
+
+#materialIconWebDesign{
+  font-size: 25vw;
+  padding: 0 50px 0 0;
+  float: left;
+}
+
+#seo {
+  display: inline-block;
+}
+
+#materialIconSEO{
+  font-size: 25vw;
+  padding: 0 50px 0 0;
+  float: right;
+}
+
+#materialHomeBTN {
+  font-size: 10vw;
+  color: green;
+}
+
+#materialHomeBTN:hover{
+  color: #000000;
+}
+
+h1 {
+  margin-bottom: 0;
+  clear:both;
+}
+
+.center {
+  text-align: center;
+}
+
+
+
+header {
+   position: fixed;
+   background-color: #000000;
+   border: 0 solid #000000;
+   font-family: 'Cinzel', serif;
+   font-size: 1vw;
+   color: #00ff00;
+   border-radius: 10px;
+   width: 99%;
+}
+
+header h1 {
+  margin: 10px 0 5px 20px;
+  font-family: 'Cinzel Decorative', cursive;
+  letter-spacing: 1px;
+  float: left;
+  display: inline-flex;
+}
+
+header h3 {
+  float: right;
+  letter-spacing: 2px;
+  text-decoration: none;
+  margin-right: 20px;
+  display: inline-flex;
+}
+
+hr{
+  clear:both;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+footer {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   font-family: 'Cinzel', serif;
+   background-color: #000000;
+   color: #00ff00;
+   border: 1px solid #000000;
+   border-radius: 10px;
+   margin: 5px;
+   width: 99%;
+   text-align: right;
+}
+
+footer p{
+  margin-right: 20px;
+  padding: 1px;
+  font-size: 1vw;
+}
+
+footer a {
+  font-family: 'Cinzel Decorative', cursive;
+  color: #00ff00
+}
+
+footer a:hover{
+  color: violet;
+  text-decoration: none;
+}
+
+@media
+ (max-width: 1110px){
+   footer{
+     width: 97%;
+   }
+   header{
+     width: 97%;
+   }
+
+   article {
+     padding: 50px 20px 5px 20px;
+   }
+ }
+
+ @media
+  (min-width: 769px) and (max-width: 1110px){
+    footer{
+      width: 97%;
+    }
+    header{
+      width: 97%;
+    }
+
+    article {
+      padding: 30px 20px 5px 20px;
+    }
+  }
+
+  @media
+   (max-width: 768px){
+     footer{
+       width: 97%;
+     }
+     header{
+       width: 97%;
+     }
+   }
